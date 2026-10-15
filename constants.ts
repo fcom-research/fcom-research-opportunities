@@ -33,7 +33,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     studentCount: "1",
     timeframe: ["Summer Research Elective"],
     startTerm: "Summer 2026",
-    applicationDate: "Apply by 1/31/2026"
+    applicationDate: "Apply by 1/31/2027"
   },
   {
     id: "qub-2026",
@@ -50,7 +50,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     studentCount: "5",
     timeframe: ["Summer Research Elective"],
     startTerm: "Summer 2026",
-    applicationDate: "Apply by 1/31/2026"
+    applicationDate: "Apply by 1/31/2027"
   },
   {
     id: "hca-tristar-2026",
@@ -67,7 +67,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     studentCount: "1",
     timeframe: ["Summer Research Elective"],
     startTerm: "Summer 2026",
-    applicationDate: "Apply by 1/31/2026"
+    applicationDate: "Apply by 1/31/2027"
   },
   {
     id: "toa-snowden-2026",
@@ -84,7 +84,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     studentCount: "1",
     timeframe: ["Summer Research Elective"],
     startTerm: "Summer 2026",
-    applicationDate: "Apply by 1/31/2026"
+    applicationDate: "Apply by 1/31/2027"
   },
   {
     id: "kornu-2025",
