@@ -39,11 +39,11 @@ export default function App() {
   }, [searchTerm, selectedTimeframe]);
 
   return (
-    <div className="min-h-screen bg-gray-50 font-sans">
+    <div className="min-h-screen bg-gray-50 font-sans overflow-x-hidden w-full">
       
       {/* Header */}
-  <header className="bg-brand-900 text-white shadow-md">
-    <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+  <header className="bg-brand-900 text-white shadow-md w-full">
+    <div className="mx-auto max-w-[1500px] px-4 py-8 sm:px-6 lg:px-8">
       <h1 className="text-3xl font-bold tracking-tight">FCoM Research Opportunities</h1>
       <p className="mt-2 text-brand-100 text-lg">
         A centralized hub where medical students can explore active research projects across the Frist College of Medicine and partner institutions to connect with faculty mentors. This database highlights current opportunities, supports equitable access to research experiences, and promotes collaboration between students and faculty engaged in scholarly work.
@@ -59,7 +59,7 @@ export default function App() {
     </div>
   </header>
 
-      <main className="mx-auto max-w-[1600px] px-4 py-8 sm:px-6 lg:px-8">
+      <main className="mx-auto max-w-[1500px] px-4 py-8 sm:px-6 lg:px-8 w-full">
         
         {/* Controls */}
         <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between bg-white p-4 rounded-lg shadow-sm border border-gray-200">
@@ -95,37 +95,37 @@ export default function App() {
         </div>
 
         {/* Desktop/Tablet Table View */}
-        <div className="hidden md:block shadow ring-1 ring-black ring-opacity-5 sm:rounded-lg bg-white overflow-hidden">
+        <div className="hidden lg:block shadow ring-1 ring-black ring-opacity-5 rounded-lg bg-white overflow-hidden w-full">
           <table className="w-full table-fixed divide-y divide-gray-300 text-sm">
             <thead className="bg-gray-50">
               <tr>
-                <th scope="col" className="py-3.5 pl-4 pr-2 text-left text-xs font-semibold uppercase tracking-wider text-gray-700 w-[14%]">PI Name</th>
-                <th scope="col" className="px-2 py-3.5 text-left text-xs font-semibold uppercase tracking-wider text-gray-700 w-[14%]">Institution</th>
-                <th scope="col" className="px-2 py-3.5 text-left text-xs font-semibold uppercase tracking-wider text-gray-700 w-[22%]">Area of Research</th>
-                <th scope="col" className="px-2 py-3.5 text-left text-xs font-semibold uppercase tracking-wider text-gray-700 w-[28%]">Project Overview</th>
-                <th scope="col" className="px-2 py-3.5 text-center text-xs font-semibold uppercase tracking-wider text-gray-700 w-[6%]">Students</th>
-                <th scope="col" className="px-2 py-3.5 text-left text-xs font-semibold uppercase tracking-wider text-gray-700 w-[9%]">Timeframe</th>
-                <th scope="col" className="py-3.5 pl-2 pr-4 text-left text-xs font-semibold uppercase tracking-wider text-gray-700 w-[7%]">Deadline</th>
+                <th scope="col" className="py-3 pl-3 pr-2 text-left text-xs font-semibold uppercase tracking-wider text-gray-700 w-[13%]">PI Name</th>
+                <th scope="col" className="px-2 py-3 text-left text-xs font-semibold uppercase tracking-wider text-gray-700 w-[15%]">Institution</th>
+                <th scope="col" className="px-2 py-3 text-left text-xs font-semibold uppercase tracking-wider text-gray-700 w-[22%]">Area of Research</th>
+                <th scope="col" className="px-2 py-3 text-left text-xs font-semibold uppercase tracking-wider text-gray-700 w-[28%]">Project Overview</th>
+                <th scope="col" className="px-1 py-3 text-center text-xs font-semibold uppercase tracking-wider text-gray-700 w-[6%]">Students</th>
+                <th scope="col" className="px-2 py-3 text-left text-xs font-semibold uppercase tracking-wider text-gray-700 w-[8%]">Timeframe</th>
+                <th scope="col" className="py-3 pl-2 pr-3 text-left text-xs font-semibold uppercase tracking-wider text-gray-700 w-[8%]">Deadline</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-200 bg-white">
               {filteredData.length > 0 ? (
                 filteredData.map((opp) => (
                   <tr key={opp.id} className="hover:bg-gray-50 transition-colors">
-                    <td className="py-3 pl-4 pr-2 text-sm font-medium text-gray-900 align-top">
-                      <div className="font-bold leading-tight">{opp.piLastName}, {opp.piFirstName}</div>
-                      <div className="text-gray-500 font-normal text-xs mt-0.5">{opp.degree}</div>
+                    <td className="py-3 pl-3 pr-2 text-xs font-medium text-gray-900 align-top break-words">
+                      <div className="font-bold leading-snug">{opp.piLastName}, {opp.piFirstName}</div>
+                      <div className="text-gray-500 font-normal text-[11px] mt-0.5">{opp.degree}</div>
                     </td>
-                    <td className="px-2 py-3 text-xs text-gray-700 align-top">
+                    <td className="px-2 py-3 text-xs text-gray-700 align-top break-words">
                       <span className="inline-block rounded bg-gray-100 px-1.5 py-0.5 font-medium text-gray-800 leading-snug">
                         {opp.institution || 'Belmont University'}
                       </span>
                     </td>
-                    <td className="px-2 py-3 text-xs text-gray-600 align-top">
-                      <div className="text-gray-900 font-semibold mb-1 line-clamp-2 leading-tight">{opp.researchFocus}</div>
+                    <td className="px-2 py-3 text-xs text-gray-600 align-top break-words">
+                      <div className="text-gray-900 font-semibold mb-1 line-clamp-2 leading-snug">{opp.researchFocus}</div>
                       <div className="text-gray-400 italic line-clamp-1">{opp.keywords}</div>
                     </td>
-                    <td className="px-2 py-3 text-xs text-gray-600 align-top">
+                    <td className="px-2 py-3 text-xs text-gray-600 align-top break-words">
                       <p className="line-clamp-2 leading-relaxed mb-1">{opp.projectOverview}</p>
                       <button 
                         onClick={() => setSelectedOpportunity(opp)}
@@ -134,7 +134,7 @@ export default function App() {
                         Read more →
                       </button>
                     </td>
-                    <td className="px-2 py-3 text-xs text-gray-700 text-center font-medium align-top">
+                    <td className="px-1 py-3 text-xs text-gray-700 text-center font-medium align-top">
                       {opp.studentCount}
                     </td>
                     <td className="px-2 py-3 text-xs text-gray-500 align-top">
@@ -146,7 +146,7 @@ export default function App() {
                           ))}
                        </div>
                     </td>
-                    <td className="py-3 pl-2 pr-4 text-xs text-gray-700 align-top">
+                    <td className="py-3 pl-2 pr-3 text-xs text-gray-700 align-top break-words">
                       <span className="font-medium text-gray-900 block leading-tight">
                         {opp.applicationDate || 'Open 05/15/2027'}
                       </span>
@@ -164,8 +164,8 @@ export default function App() {
           </table>
         </div>
 
-        {/* Mobile Card View */}
-        <div className="md:hidden space-y-4">
+        {/* Mobile/Tablet Card View */}
+        <div className="lg:hidden space-y-4">
           {filteredData.length > 0 ? (
             filteredData.map((opp) => (
               <div key={opp.id} className="bg-white shadow rounded-lg p-4 border border-gray-200">
