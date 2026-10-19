@@ -21,7 +21,14 @@ export const DetailModal: React.FC<DetailModalProps> = ({ opportunity, onClose }
               <h3 className="text-xl font-semibold leading-6 text-gray-900" id="modal-title">
                 {opportunity.piFirstName} {opportunity.piLastName}, {opportunity.degree}
               </h3>
-              <p className="text-sm text-gray-500 mt-1">{opportunity.department}</p>
+              <div className="flex flex-wrap items-center gap-2 mt-1">
+                {opportunity.institution && (
+                  <span className="inline-flex items-center rounded-md bg-brand-50 px-2 py-0.5 text-xs font-semibold text-brand-800 border border-brand-200">
+                    {opportunity.institution}
+                  </span>
+                )}
+                <span className="text-sm text-gray-500">{opportunity.department}</span>
+              </div>
             </div>
 
             {/* Content */}

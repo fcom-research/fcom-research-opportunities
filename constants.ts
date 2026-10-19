@@ -4,6 +4,7 @@ import { ResearchOpportunity } from './types';
 export const RESEARCH_DATA: ResearchOpportunity[] = [
   {
     id: "quagga-nelson-2026",
+    institution: "Quagga Health",
     piLastName: "Nelson",
     piFirstName: "Joey",
     email: "joey@quaggahealth.com", 
@@ -20,6 +21,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
   },
     {
     id: "spri-huard-2026",
+    institution: "Steadman Philippon Research Institute (SPRI)",
     piLastName: "Huard",
     piFirstName: "Johnny",
     email: "douglas.slakey@belmont.edu",
@@ -37,6 +39,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
   },
   {
     id: "qub-2026",
+    institution: "Queen's University Belfast",
     piLastName: "Queen's University",
     piFirstName: "Belfast",
     email: "cemsummerstudents@qub.ac.uk",
@@ -54,6 +57,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
   },
   {
     id: "hca-tristar-2026",
+    institution: "HCA TriStar Health",
     piLastName: "Hunt",
     piFirstName: "Darrell",
     email: "Bailey.Segura@hcahealthcare.com", // Email removed as requested; contacts are listed in the overview
@@ -71,6 +75,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
   },
   {
     id: "toa-snowden-2026",
+    institution: "Tennessee Orthopaedic Alliance (TOA)",
     piLastName: "Ryan Snowden",
     piFirstName: "TN Orthopaedic Alliance",
     email: "", // No email provided in text, leaving blank
@@ -88,6 +93,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
   },
   {
     id: "kornu-2025",
+    institution: "Belmont University (FCoM)",
     piLastName: "Kornu",
     piFirstName: "Kimbell",
     email: "kimbell.kornu@belmont.edu",
@@ -104,6 +110,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
   },
   {
     id: "lowe-2025",
+    institution: "Tennessee Orthopaedic Alliance (TOA)",
     piLastName: "Lowe",
     piFirstName: "Robert",
     email: "lowerw@toa.com",
@@ -120,6 +127,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
   },
   {
     id: "whitworth-2025",
+    institution: "Belmont University (FCoM)",
     piLastName: "Whitworth",
     piFirstName: "Pat",
     email: "pat.whitworth@belmont.edu",
@@ -136,6 +144,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
   },
   {
     id: "ryan-b-1",
+    institution: "Belmont University (FCoM)",
     piLastName: "Ryan",
     piFirstName: "Benjamin",
     email: "ben.ryan@belmont.edu",
@@ -152,6 +161,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
   },
   {
     id: "ryan-b-2",
+    institution: "Belmont University (FCoM)",
     piLastName: "Ryan",
     piFirstName: "Benjamin",
     email: "ben.ryan@belmont.edu",
@@ -168,6 +178,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
   },
   {
     id: "thurman-2025",
+    institution: "Belmont University (FCoM)",
     piLastName: "Thurman",
     piFirstName: "Kendall",
     email: "kendall.thurman@belmont.edu",
@@ -184,6 +195,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
   },
   {
     id: "hendron-2025",
+    institution: "Belmont University (FCoM)",
     piLastName: "Hendron",
     piFirstName: "Crystal",
     email: "crystal.hendron@belmont.edu",
@@ -200,6 +212,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
   },
   {
     id: "kanagasabai-mmc-2026",
+    institution: "Meharry Medical College",
     piLastName: "Kanagasabai",
     piFirstName: "Thanigaivelan",
     email: "tkanagasabai@mmc.edu",
@@ -217,6 +230,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
   },
   {
     id: "misra-mmc-2026",
+    institution: "Meharry Medical College",
     piLastName: "Misra",
     piFirstName: "Smita",
     email: "smisra@mmc.edu",
@@ -234,6 +248,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
   },
   {
     id: "chaudhuri-mmc-2026",
+    institution: "Meharry Medical College",
     piLastName: "Chaudhuri",
     piFirstName: "Minu",
     email: "mchaudhuri@mmc.edu",
@@ -251,6 +266,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
   },
   {
     id: "cao-mmc-2026",
+    institution: "Meharry Medical College",
     piLastName: "Cao",
     piFirstName: "Aize",
     email: "acao@mmc.edu",
@@ -268,6 +284,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
   },
   {
     id: "mamun-mmc-2026",
+    institution: "Meharry Medical College",
     piLastName: "Mamun",
     piFirstName: "Abdullah",
     email: "abdullah.mamun@mmc.edu",
@@ -285,6 +302,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
   },
   {
     id: "zhang-vumc-2026",
+    institution: "Vanderbilt University Medical Center",
     piLastName: "Zhang",
     piFirstName: "Panpan",
     email: "panpan.zhang@vumc.org",
@@ -302,6 +320,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
   },
   {
     id: "madabhushi-emory-2026",
+    institution: "Emory University",
     piLastName: "Madabhushi",
     piFirstName: "Anant",
     email: "anantm@emory.edu",

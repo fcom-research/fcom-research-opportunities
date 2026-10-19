@@ -24,6 +24,8 @@ export default function App() {
       const matchesSearch = 
         item.piLastName.toLowerCase().includes(searchLower) ||
         item.piFirstName.toLowerCase().includes(searchLower) ||
+        (item.institution && item.institution.toLowerCase().includes(searchLower)) ||
+        item.department.toLowerCase().includes(searchLower) ||
         item.researchFocus.toLowerCase().includes(searchLower) ||
         item.keywords.toLowerCase().includes(searchLower) ||
         item.projectOverview.toLowerCase().includes(searchLower);
@@ -69,7 +71,7 @@ export default function App() {
             <input
               type="text"
               className="block w-full rounded-md border-0 py-2.5 pl-10 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-brand-600 sm:text-sm sm:leading-6"
-              placeholder="Search by PI, keyword, or topic..."
+              placeholder="Search by PI, keyword, topic, or institution..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
             />
@@ -98,6 +100,7 @@ export default function App() {
             <thead className="bg-gray-50">
               <tr>
                 <th scope="col" className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6">PI Name</th>
+                <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Institution</th>
                 <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900 w-1/4">Area of Research</th>
                 <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900 w-1/3">Project Overview</th>
                 <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Students</th>
@@ -112,6 +115,11 @@ export default function App() {
                     <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6 align-top">
                       <div className="font-bold">{opp.piLastName}, {opp.piFirstName}</div>
                       <div className="text-gray-500 font-normal text-xs mt-1">{opp.degree}</div>
+                    </td>
+                    <td className="px-3 py-4 text-sm text-gray-700 align-top">
+                      <span className="inline-flex items-center rounded-md bg-gray-100 px-2 py-1 text-xs font-medium text-gray-800">
+                        {opp.institution || 'Belmont University'}
+                      </span>
                     </td>
                     <td className="px-3 py-4 text-sm text-gray-500 align-top">
                       <div className="text-gray-900 font-medium mb-1">{opp.researchFocus}</div>
@@ -143,7 +151,7 @@ export default function App() {
                 ))
               ) : (
                 <tr>
-                  <td colSpan={6} className="py-12 text-center text-gray-500">
+                  <td colSpan={7} className="py-12 text-center text-gray-500">
                     No research opportunities found matching your criteria.
                   </td>
                 </tr>
@@ -160,7 +168,14 @@ export default function App() {
                 <div className="flex justify-between items-start mb-3">
                   <div>
                     <h3 className="text-lg font-bold text-gray-900">{opp.piLastName}, {opp.piFirstName}</h3>
-                    <span className="text-xs text-gray-500">{opp.degree}</span>
+                    <div className="flex items-center gap-2 mt-0.5">
+                      <span className="text-xs text-gray-500">{opp.degree}</span>
+                      {opp.institution && (
+                        <span className="inline-flex items-center rounded bg-gray-100 px-1.5 py-0.5 text-xs font-medium text-gray-700">
+                          {opp.institution}
+                        </span>
+                      )}
+                    </div>
                   </div>
                    <div className="text-xs font-semibold bg-gray-100 text-gray-800 px-2 py-1 rounded">
                       {opp.applicationDate || 'Open 05/15/2027'}

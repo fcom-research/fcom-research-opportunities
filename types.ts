@@ -14,4 +14,5 @@ export interface ResearchOpportunity {
   timeframe: string[]; // Parsed from the CSV string
   startTerm: string;
   applicationDate?: string; // Add this line
+  institution?: string;
 }
