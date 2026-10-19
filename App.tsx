@@ -95,17 +95,17 @@ export default function App() {
         </div>
 
         {/* Desktop/Tablet Table View */}
-        <div className="hidden md:block overflow-hidden shadow ring-1 ring-black ring-opacity-5 sm:rounded-lg bg-white">
+        <div className="hidden md:block overflow-x-auto shadow ring-1 ring-black ring-opacity-5 sm:rounded-lg bg-white">
           <table className="min-w-full divide-y divide-gray-300">
             <thead className="bg-gray-50">
               <tr>
-                <th scope="col" className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6">PI Name</th>
-                <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Institution</th>
-                <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900 w-1/4">Area of Research</th>
-                <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900 w-1/3">Project Overview</th>
-                <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Students</th>
-                <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Timeframe</th>
-                <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Application</th>
+                <th scope="col" className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6 whitespace-nowrap">PI Name</th>
+                <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900 whitespace-nowrap">Institution</th>
+                <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900 min-w-[200px]">Area of Research</th>
+                <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900 min-w-[260px]">Project Overview</th>
+                <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900 whitespace-nowrap">Students</th>
+                <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900 whitespace-nowrap">Timeframe</th>
+                <th scope="col" className="py-3.5 pl-3 pr-4 text-left text-sm font-semibold text-gray-900 sm:pr-6 whitespace-nowrap">Application</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-200 bg-white">
@@ -144,7 +144,7 @@ export default function App() {
                           ))}
                        </div>
                     </td>
-                    <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500 align-top">
+                    <td className="whitespace-nowrap py-4 pl-3 pr-4 text-sm text-gray-500 align-top sm:pr-6">
                       <span className="font-medium text-gray-900">{opp.applicationDate || 'Open 05/15/2027'}</span>
                     </td>
                   </tr>
