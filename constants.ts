@@ -19,24 +19,6 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     timeframe: ["Summer Research Elective", "Academic Year (Ongoing)"],
     startTerm: "Summer 2026"
   },
-    {
-    id: "spri-huard-2026",
-    institution: "Steadman Philippon Research Institute (SPRI)",
-    piLastName: "Huard",
-    piFirstName: "Johnny",
-    email: "douglas.slakey@belmont.edu",
-    title: "Chief Scientific Officer (CSO) and Director",
-    degree: "PhD", 
-    department: "Center for Regenerative Sports Medicine (SPRI)",
-    researchFocus: "Regenerative Medicine, Tissue Engineering, Aging",
-    keywords: "Aging, muscle-derived stem cells, MDSCs, gene therapy, CRISPR-Cas9, senolytics, biologics, tissue repair",
-    programDescription: "The Center for Regenerative Sports Medicine at the Steadman Philippon Research Institute (SPRI) focuses on developing biological medicine approaches to improve tissue repair after injury, disease, and aging.",
-    projectOverview: "Investigate the use of adult stem cells as a source for paracrine factors to alleviate phenotypic changes associated with natural and accelerated aging. The project utilizes a variety of advanced technologies including biologics (MDSCs, ADSCs), regenerative medicine approaches (gene therapy, CRISPR-Cas9), therapeutics (senolytic and senomorphic drugs), and animal modeling.",
-    studentCount: "1",
-    timeframe: ["Summer Research Elective"],
-    startTerm: "Summer 2026",
-    applicationDate: "Apply by 1/31/2027"
-  },
   {
     id: "qub-2026",
     institution: "Queen's University Belfast",
@@ -175,23 +157,6 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     studentCount: "4",
     timeframe: ["Academic Year (Ongoing)"],
     startTerm: "Fall 2025"
-  },
-  {
-    id: "thurman-2025",
-    institution: "Belmont University (FCoM)",
-    piLastName: "Thurman",
-    piFirstName: "Kendall",
-    email: "kendall.thurman@belmont.edu",
-    title: "Assistant Professor",
-    degree: "DO",
-    department: "Foundational and Clinical Sciences",
-    researchFocus: "Clinical research, Emergency Medicine; Family Medicine",
-    keywords: "Doctor-Patient communication",
-    programDescription: "How faculty perspective on students affects student mindset.",
-    projectOverview: "A study on how faculty perspective on students affects student mindset. Does the outlook on students (deficit or asset-based) affect students' growth mindset? Surveys will be provided to faculty.",
-    studentCount: "2-4",
-    timeframe: ["Academic Year (Ongoing)"],
-    startTerm: "Spring 2026"
   },
   {
     id: "hendron-2025",
