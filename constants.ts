@@ -91,23 +91,6 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     startTerm: ""
   },
   {
-    id: "lowe-2025",
-    institution: "Tennessee Orthopaedic Alliance (TOA)",
-    piLastName: "Lowe",
-    piFirstName: "Robert",
-    email: "lowerw@toa.com",
-    title: "MD TOA community faculty",
-    degree: "MD",
-    department: "Orthopedic",
-    researchFocus: "Clinical research, Orthopaedic Surgery",
-    keywords: "Spine, Clinical outcome research and possible cell biology",
-    programDescription: "New faculty. Foster their own leaning style.",
-    projectOverview: "Review of spine surgery outcomes. Help review and collect data.",
-    studentCount: "1-2",
-    timeframe: ["Summer Research Elective", "Academic Year (Ongoing)"],
-    startTerm: ""
-  },
-  {
     id: "whitworth-2025",
     institution: "Belmont University (FCoM)",
     piLastName: "Whitworth",
