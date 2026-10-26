@@ -7,6 +7,27 @@ interface DetailModalProps {
   onClose: () => void;
 }
 
+const renderTextWithLinks = (text: string) => {
+  const urlRegex = /(https?:\/\/[^\s\)]+)/g;
+  const parts = text.split(urlRegex);
+  return parts.map((part, i) => {
+    if (part.match(urlRegex)) {
+      return (
+        <a
+          key={i}
+          href={part}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-brand-600 underline hover:text-brand-800 break-all"
+        >
+          {part}
+        </a>
+      );
+    }
+    return part;
+  });
+};
+
 export const DetailModal: React.FC<DetailModalProps> = ({ opportunity, onClose }) => {
   return (
     <div className="relative z-50" aria-labelledby="modal-title" role="dialog" aria-modal="true">
@@ -41,12 +62,12 @@ export const DetailModal: React.FC<DetailModalProps> = ({ opportunity, onClose }
 
                <div>
                 <h4 className="text-sm font-medium text-gray-900">Program Description</h4>
-                <p className="text-sm text-gray-600 mt-1">{opportunity.programDescription}</p>
+                <p className="text-sm text-gray-600 mt-1">{renderTextWithLinks(opportunity.programDescription)}</p>
               </div>
 
               <div className="bg-gray-50 p-4 rounded-md border border-gray-200">
                 <h4 className="text-sm font-bold text-gray-900">Project Overview</h4>
-                <p className="text-sm text-gray-700 mt-2 whitespace-pre-wrap">{opportunity.projectOverview}</p>
+                <p className="text-sm text-gray-700 mt-2 whitespace-pre-wrap">{renderTextWithLinks(opportunity.projectOverview)}</p>
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
