@@ -17,7 +17,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     projectOverview: "Depending on student expertise and interest, opportunities exist to use AI modeling techniques on large datasets, test levers of engagement efficiency in a clinical or employer benefits wellness center setting, or employ models in new populations. Research will focus on inherited metabolic disorders which result in catastrophic events such as liver and lung failure, massive coronary events, and thrombosis or pulmonary embolism, if undiagnosed and untreated. This opportunity is ideal for students wanting to blend medical or data analysis training with exposure to the Nashville health technology startup ecosystem.",
     studentCount: "1-2",
     timeframe: ["Summer Research Elective", "Academic Year (Ongoing)"],
-    startTerm: "Summer 2026"
+    startTerm: "Summer 2027"
   },
   {
     id: "qub-2026",
@@ -34,7 +34,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     projectOverview: "Students tackle one defined laboratory or clinical project as active members of a leading research group: planning, generating, analyzing data, and presenting findings at a research symposium. Project strengths span: Infection Biology & Host Response, Immunology, Cell & Vascular Biology, Infectious Disease & Virology, Respiratory Disease & Critical Care, Vision Science & Ophthalmology, Cardiovascular Disease, Diabetes & Multi-Morbidities, and Neurology. Clinical insight opportunities and hospital visits across Belfast's NHS teaching hospitals are integrated.",
     studentCount: "5",
     timeframe: ["Summer Research Elective"],
-    startTerm: "Summer 2026",
+    startTerm: "Summer 2027",
     applicationDate: "Apply by 1/31/2027"
   },
   {
@@ -52,7 +52,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     projectOverview: "Medical students will have the opportunity to immerse themselves in the fast‑paced world of trauma care while contributing to research aimed at advancing the field. This internship places students at the heart of a level I trauma hospital where they will work with experienced surgeons on projects designed to improve outcomes for critically injured patients. This program is ideal for students looking to blend research with clinical observation.\n\nPoints of contact: Dr. Darrell Hunt and Bailey Segura.",
     studentCount: "1",
     timeframe: ["Summer Research Elective"],
-    startTerm: "Summer 2026",
+    startTerm: "Summer 2027",
     applicationDate: "Apply by 1/31/2027"
   },
   {
@@ -70,7 +70,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     projectOverview: "Investigate the relationship between post-operative lumbar infections and hospital readmission rates. Assess the impact of pre-operative nutrition on surgical outcomes. Conduct a retrospective study on fusion rates of two different bone grafts in multi-level lumbar spine fusions.",
     studentCount: "1",
     timeframe: ["Summer Research Elective"],
-    startTerm: "Summer 2026",
+    startTerm: "Summer 2027",
     applicationDate: "Apply by 1/31/2027"
   },
   {
@@ -105,7 +105,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     projectOverview: "TBD",
     studentCount: "TBD",
     timeframe: ["Summer Research Elective", "Academic Year (Ongoing)"],
-    startTerm: "Summer 2026",
+    startTerm: "Summer 2027",
     applicationDate: "Apply by 1/31/2027"
   },
   {
@@ -123,7 +123,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     projectOverview: "High tech/low tech medicine equity; The forgotten field of sanitation in medical curriculum; The dimensions of physician neutrality in conflict; Managing vaccination reluctance; Disaster detection/alerts; Disaster resilience standards.",
     studentCount: "10",
     timeframe: ["Academic Year (Ongoing)"],
-    startTerm: "Spring 2026"
+    startTerm: "Spring 2027"
   },
   {
     id: "ryan-b-2",
@@ -157,7 +157,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     projectOverview: "Peer-to-peer learning support - evaluation and efficacy of services provided by the PAL Program. Academic Coaching and the development of master adaptive learners. Evidence-based practices for advancing academic support.",
     studentCount: "5-10",
     timeframe: ["Academic Year (Ongoing)"],
-    startTerm: "Spring 2026"
+    startTerm: "Spring 2027"
   },
   {
     id: "kanagasabai-mmc-2026",
@@ -174,7 +174,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     projectOverview: "Investigate lymphocyte function and tumor immune escape mechanisms, specifically focusing on CD8+ T-cell and natural killer (NK)-cell interactions within the tumor microenvironment. Projects evaluate strategies to overcome immunosuppression and enhance anti-tumor responses. Relevant specialties include Internal Medicine (hematology/oncology), Pathology, and Radiation Oncology.",
     studentCount: "1-2",
     timeframe: ["Summer Research Elective", "Academic Year (Ongoing)"],
-    startTerm: "Summer 2026",
+    startTerm: "Summer 2027",
     applicationDate: "Apply by 1/31/2027"
   },
   {
@@ -192,7 +192,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     projectOverview: "Study molecular pathways controlling breast cancer biology, gene expression, and post-transcriptional RNA regulation in the context of tumor growth, invasion, and metastatic progression. Research aims to identify novel diagnostic biomarkers and targeted therapeutics. Relevant specialties include Internal Medicine (medical oncology), General Surgery (breast surgical oncology), Pathology, and Radiation Oncology.",
     studentCount: "1-2",
     timeframe: ["Summer Research Elective", "Academic Year (Ongoing)"],
-    startTerm: "Summer 2026",
+    startTerm: "Summer 2027",
     applicationDate: "Apply by 1/31/2027"
   },
   {
@@ -210,7 +210,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     projectOverview: "Investigate molecular parasitology with a focus on Trypanosoma brucei, examining mechanisms of mitochondrial protein and RNA import essential for parasite survival and adaptation. Projects offer experience in molecular biology, biochemistry, and microbial pathogenesis. Relevant specialties include Internal Medicine (infectious diseases), Pediatrics (infectious diseases), and Pathology (medical microbiology).",
     studentCount: "1-2",
     timeframe: ["Summer Research Elective", "Academic Year (Ongoing)"],
-    startTerm: "Summer 2026",
+    startTerm: "Summer 2027",
     applicationDate: "Apply by 1/31/2027"
   },
   {
@@ -228,7 +228,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     projectOverview: "Apply machine learning and statistical modeling to large-scale clinical and population health datasets to predict health outcomes, investigate social determinants of health (SDoH), and address health disparities. Specific focus areas include maternal health outcomes, substance use, and mental health disorders. Relevant specialties include Obstetrics and Gynecology, Psychiatry (addiction psychiatry), Internal Medicine, Family Medicine, and Preventive Medicine.",
     studentCount: "1-2",
     timeframe: ["Summer Research Elective", "Academic Year (Ongoing)"],
-    startTerm: "Summer 2026",
+    startTerm: "Summer 2027",
     applicationDate: "Apply by 1/31/2027"
   },
   {
@@ -246,7 +246,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     projectOverview: "Engage in AI/ML-driven computational drug discovery targeting oncology and rare diseases. Projects utilize molecular dynamics simulations, structure-based drug design, predictive models for drug resistance and variant pathogenicity, and AI-assisted enzyme engineering. Relevant specialties include Internal Medicine (medical oncology), Medical Genetics and Genomics, and Pathology (molecular genetic pathology).",
     studentCount: "1-2",
     timeframe: ["Summer Research Elective", "Academic Year (Ongoing)"],
-    startTerm: "Summer 2026",
+    startTerm: "Summer 2027",
     applicationDate: "Apply by 1/31/2027"
   },
   {
@@ -264,7 +264,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     projectOverview: "Develop and apply innovative statistical methodologies to evaluate biomarkers, analyze high-dimensional neuroimaging data, and model longitudinal trajectories of cognitive decline and dementia risk in Alzheimer's disease. Relevant specialties include Neurology, Psychiatry (geriatric psychiatry), Diagnostic Radiology (neuroradiology), and Internal Medicine (geriatric medicine).",
     studentCount: "1-2",
     timeframe: ["Summer Research Elective", "Academic Year (Ongoing)"],
-    startTerm: "Summer 2026",
+    startTerm: "Summer 2027",
     applicationDate: "Apply by 1/31/2027"
   },
   {
@@ -282,7 +282,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     projectOverview: "Develop, validate, and translate artificial intelligence, radiomics, and computational pathology tools to improve disease diagnosis, characterization, and prediction of treatment response and outcomes in multiple cancers. Opportunities span multimodal data fusion (imaging, pathology, clinical, molecular). Relevant specialties include Diagnostic Radiology, Pathology, Radiation Oncology, Internal Medicine (medical oncology), Urology, and General Surgery (surgical oncology).",
     studentCount: "1-2",
     timeframe: ["Summer Research Elective", "Academic Year (Ongoing)"],
-    startTerm: "Summer 2026",
+    startTerm: "Summer 2027",
     applicationDate: "Apply by 1/31/2027"
   },
   {
@@ -300,7 +300,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     projectOverview: "Medical student interns will participate in high-impact public health and clinical implementation research. Key potential projects include: (1) Assisting with implementation research for a clinical curriculum being developed around firearm safety counseling in partnership with Belmont Nursing, (2) Conducting a pilot study evaluating hospital-based cable lock distribution and surveying/interviewing healthcare providers regarding the feasibility and integration of firearm safety conversations into routine clinical care, and (3) Investigating innovative, evidence-based interventions that strengthen firearm safety and reduce violent crime in Tennessee.",
     studentCount: "1-2",
     timeframe: ["Summer Research Elective", "Academic Year (Ongoing)"],
-    startTerm: "Summer 2026",
+    startTerm: "Summer 2027",
     applicationDate: "Apply by 1/31/2027"
   },
   {
@@ -318,7 +318,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     projectOverview: "TBD",
     studentCount: "TBD",
     timeframe: ["Summer Research Elective", "Academic Year (Ongoing)"],
-    startTerm: "Summer 2026",
+    startTerm: "Summer 2027",
     applicationDate: "Apply by 1/31/2027"
   },
   {
@@ -336,7 +336,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     projectOverview: "TBD",
     studentCount: "TBD",
     timeframe: ["Summer Research Elective", "Academic Year (Ongoing)"],
-    startTerm: "Summer 2026",
+    startTerm: "Summer 2027",
     applicationDate: "Apply by 1/31/2027"
   },
   {
@@ -354,7 +354,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     projectOverview: "TBD",
     studentCount: "TBD",
     timeframe: ["Summer Research Elective", "Academic Year (Ongoing)"],
-    startTerm: "Summer 2026",
+    startTerm: "Summer 2027",
     applicationDate: "Apply by 1/31/2027"
   },
   {
@@ -372,7 +372,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     projectOverview: "TBD",
     studentCount: "TBD",
     timeframe: ["Summer Research Elective", "Academic Year (Ongoing)"],
-    startTerm: "Summer 2026",
+    startTerm: "Summer 2027",
     applicationDate: "Apply by 1/31/2027"
   },
   {
@@ -390,7 +390,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     projectOverview: "TBD",
     studentCount: "TBD",
     timeframe: ["Summer Research Elective", "Academic Year (Ongoing)"],
-    startTerm: "Summer 2026",
+    startTerm: "Summer 2027",
     applicationDate: "Apply by 1/31/2027"
   },
   {
@@ -408,7 +408,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     projectOverview: "TBD",
     studentCount: "TBD",
     timeframe: ["Summer Research Elective", "Academic Year (Ongoing)"],
-    startTerm: "Summer 2026",
+    startTerm: "Summer 2027",
     applicationDate: "Apply by 1/31/2027"
   },
   {
@@ -426,7 +426,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     projectOverview: "TBD",
     studentCount: "TBD",
     timeframe: ["Summer Research Elective", "Academic Year (Ongoing)"],
-    startTerm: "Summer 2026",
+    startTerm: "Summer 2027",
     applicationDate: "Apply by 1/31/2027"
   },
   {
@@ -444,7 +444,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     projectOverview: "TBD",
     studentCount: "TBD",
     timeframe: ["Summer Research Elective", "Academic Year (Ongoing)"],
-    startTerm: "Summer 2026",
+    startTerm: "Summer 2027",
     applicationDate: "Apply by 1/31/2027"
   },
   {
@@ -462,7 +462,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     projectOverview: "TBD",
     studentCount: "TBD",
     timeframe: ["Summer Research Elective", "Academic Year (Ongoing)"],
-    startTerm: "Summer 2026",
+    startTerm: "Summer 2027",
     applicationDate: "Apply by 1/31/2027"
   },
   {
@@ -480,7 +480,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     projectOverview: "TBD",
     studentCount: "TBD",
     timeframe: ["Summer Research Elective", "Academic Year (Ongoing)"],
-    startTerm: "Summer 2026",
+    startTerm: "Summer 2027",
     applicationDate: "Apply by 1/31/2027"
   },
   {
@@ -498,7 +498,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     projectOverview: "TBD",
     studentCount: "TBD",
     timeframe: ["Summer Research Elective", "Academic Year (Ongoing)"],
-    startTerm: "Summer 2026",
+    startTerm: "Summer 2027",
     applicationDate: "Apply by 1/31/2027"
   },
   {
@@ -516,7 +516,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     projectOverview: "TBD",
     studentCount: "TBD",
     timeframe: ["Summer Research Elective", "Academic Year (Ongoing)"],
-    startTerm: "Summer 2026",
+    startTerm: "Summer 2027",
     applicationDate: "Apply by 1/31/2027"
   },
   {
@@ -534,7 +534,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     projectOverview: "TBD",
     studentCount: "TBD",
     timeframe: ["Summer Research Elective", "Academic Year (Ongoing)"],
-    startTerm: "Summer 2026",
+    startTerm: "Summer 2027",
     applicationDate: "Apply by 1/31/2027"
   },
   {
@@ -552,7 +552,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     projectOverview: "TBD",
     studentCount: "TBD",
     timeframe: ["Summer Research Elective", "Academic Year (Ongoing)"],
-    startTerm: "Summer 2026",
+    startTerm: "Summer 2027",
     applicationDate: "Apply by 1/31/2027"
   },
   {
@@ -570,7 +570,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     projectOverview: "TBD",
     studentCount: "TBD",
     timeframe: ["Summer Research Elective", "Academic Year (Ongoing)"],
-    startTerm: "Summer 2026",
+    startTerm: "Summer 2027",
     applicationDate: "Apply by 1/31/2027"
   }
 ];
