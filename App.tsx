@@ -49,12 +49,14 @@ export default function App() {
         A centralized hub where medical students can explore active research projects across the Frist College of Medicine and partner institutions to connect with faculty mentors. This database highlights current opportunities, supports equitable access to research experiences, and promotes collaboration between students and faculty engaged in scholarly work.
       </p>
       <div className="mt-6">
-        <button 
-          disabled
-          className="inline-block rounded-md bg-gray-300 px-6 py-3 text-base font-semibold text-gray-500 shadow-sm cursor-not-allowed uppercase"
+        <a 
+          href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=ew39FqVjrk-fZKmKxAGdfS5y2nC1mQNBpaE6ZHVBc5pUQklUTExVUU8xRzQ3RFZXRlNEMUpaUUw3VCQlQCN0PWcu"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block rounded-md bg-white px-6 py-3 text-base font-semibold text-brand-900 shadow-sm hover:bg-brand-50 transition-colors uppercase"
         >
-          Application Opens November 1st
-        </button>
+          Applications Open
+        </a>
       </div>
     </div>
   </header>
