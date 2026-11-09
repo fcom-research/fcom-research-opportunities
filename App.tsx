@@ -48,6 +48,12 @@ export default function App() {
       <p className="mt-2 text-brand-100 text-lg">
         A centralized hub where medical students can explore active research projects across the Frist College of Medicine and partner institutions to connect with faculty mentors. This database highlights current opportunities, supports equitable access to research experiences, and promotes collaboration between students and faculty engaged in scholarly work.
       </p>
+      
+      {/* Notice Banner */}
+      <div className="mt-4 rounded-md bg-brand-800/80 border border-brand-700 p-3.5 text-sm text-brand-100 leading-relaxed">
+        <span className="font-semibold text-white">Student Note:</span> Please reach out directly to faculty mentors to confirm whether they are currently accepting students and to discuss project scope, student expectations, and availability for the summer. For Belmont University (FCoM) faculty listings marked &quot;TBD&quot;, contact the faculty member directly to learn more about upcoming opportunities.
+      </div>
+
       <div className="mt-6">
         <a 
           href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=ew39FqVjrk-fZKmKxAGdfS5y2nC1mQNBpaE6ZHVBc5pUQklUTExVUU8xRzQ3RFZXRlNEMUpaUUw3VCQlQCN0PWcu"
